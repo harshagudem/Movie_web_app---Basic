@@ -21,7 +21,7 @@ const showMovies = (movies) => {
     movieElement.classList.add("movie");
     movieElement.innerHTML = `
     <img
-      src="${IMG_PATH + poster_path}"
+      src="${IMG_PATH +  poster_path}"
       alt="${title}"
     />
     <div class="movie-info">
