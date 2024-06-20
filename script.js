@@ -49,7 +49,7 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   const searchTerm = search.value;
   if (searchTerm && searchTerm !== "") {
-    getMovies(SEARCH_API + searchTerm);
+    getMovies(SEARCH_API +  searchTerm);
     search.value = "";
   } else history.go(0);
 });
